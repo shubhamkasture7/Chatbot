@@ -32,7 +32,7 @@ app.post("/chat", async (req, res) => {
 
   try {
     const geminiRes = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyB4td9xo1MVfzgF50RB4enTXkvGNHsrB5s`,
       {
         method: "POST",
         headers: {
